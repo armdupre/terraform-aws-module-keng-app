@@ -20,6 +20,7 @@ locals {
 	Preamble = "${local.UserLoginTag}-${local.UserProjectTag}-${local.Tag}-${local.InstanceId}-${local.Version}"
 	Region = data.aws_region.current.name
 	SleepDelay = var.SleepDelay
+	SshKeyName = var.SshKeyName
 	Tag = var.Tag
 	UserEmailTag = var.UserEmailTag
 	UserLoginTag = var.UserLoginTag

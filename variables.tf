@@ -1,11 +1,11 @@
 variable "AmiName" {
-	default = "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20230516"
+	default = "Deep Learning AMI Neuron (Ubuntu 22.04) 20250404"
 	description = "AMI name used for deploying instances"
 	type = string
 }
 
 variable "AmiOwner" {
-	default = "099720109477"
+	default = "898082745236"
 	description = "Owner of AMI used for deploying instances"
 	type = string
 }

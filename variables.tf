@@ -1,11 +1,11 @@
 variable "AmiName" {
-	default = "Deep Learning AMI Neuron (Ubuntu 22.04) 20250404"
+	default = "ubuntu-pro-server/images/hvm-ssd-gp3/ubuntu-noble-24.04-amd64-pro-server-20250325"
 	description = "AMI name used for deploying instances"
 	type = string
 }
 
 variable "AmiOwner" {
-	default = "898082745236"
+	default = "099720109477"
 	description = "Owner of AMI used for deploying instances"
 	type = string
 }
